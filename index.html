@@ -200,11 +200,21 @@
         }
         
         .course-card a {
-            color: #ffffff(--primary-blue);
-            background-color: #ffffff;
-            text-decoration: none;
-            font-size: 0.9rem;
-        }
+            display: inline-block;    /* 讓它像個按鈕 */
+    background-color: #ffffff; /* 背景設定為白色 */
+    color: #000000;           /* 文字設定為黑色 */
+    padding: 8px 20px;        /* 上下左右的間距，調整按鈕大小 */
+    text-decoration: none;    /* 去掉連結底線 */
+    border-radius: 5px;       /* 圓角效果，可依喜好調整 */
+    font-weight: bold;        /* 字體加粗 */
+    margin-top: 15px;         /* 與上方文字保持距離 */
+    transition: 0.3s;         /* 增加滑鼠移入時的平滑感 */
+}
+
+/* 滑鼠移上去時的反饋（選用） */
+.learn-more-btn:hover {
+    background-color: #dddddd; /* 移上去變淺灰色 */
+}
         footer { text-align: center; padding: 25px; color: #555; font-size: 0.85rem; border-top: 1px solid #1a2635; line-height: 1.6; }
         .ig-link { color: var(--primary-blue); text-decoration: none; font-weight: bold; }
     </style>
