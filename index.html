@@ -138,7 +138,72 @@
 
         .whatsapp-btn { background: #25d366; color: white; margin-top: 20px; }
         .payme-link-btn { background: #ff007f; color: white; }
-
+/* 課程介紹專用樣式 */
+        .course-intro h1 {
+            color: var(--primary-blue);
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        .course-intro p {
+            text-align: center;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+        
+        .course-card {
+            background: rgba(0,0,0,0.4);
+            border: 1px solid var(--primary-blue);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .course-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .course-card h2 {
+            color: var(--primary-blue);
+            margin: 15px 0 10px;
+            font-size: 1.4rem;
+        }
+        
+        .course-card .course-description {
+            text-align: left;
+            line-height: 1.7;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        
+        .course-card ul {
+            text-align: left;
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .course-card li {
+            margin: 8px 0;
+            color: #ccc;
+        }
+        
+        .course-card a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
         footer { text-align: center; padding: 25px; color: #555; font-size: 0.85rem; border-top: 1px solid #1a2635; line-height: 1.6; }
         .ig-link { color: var(--primary-blue); text-decoration: none; font-weight: bold; }
     </style>
